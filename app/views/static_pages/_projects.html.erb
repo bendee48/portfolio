@@ -8,10 +8,7 @@
     <div class="carousel-item active" style="background-image:url(<%= image_url("chess.png") %>);">
       <div class="carousel-caption mb-5 p-5">
         <h5>Chess CLI</h5>
-        <p>A command line chess game built with Ruby. The aim of this project was to tie together 
-          everything that I'd learnt about Ruby so far. 
-          Modules, Classes, Object Oriented Design, testing, serialization and just about everything else.
-        </p>
+        <p>A command line chess game built with Ruby.</p>
         <span class="badge badge-primary">Ruby</span>
         <span class="badge badge-primary">RSpec</span>
         <span class="badge badge-primary">Rubocop</span>
@@ -19,6 +16,10 @@
         <div class="mt-2">
           <%= link_to 'Live', '#', class: 'btn btn-primary' %>
           <%= link_to 'Repo', '#', class: 'btn btn-primary' %>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chessModal">
+            More Info
+          </button>
         </div>
       </div>
     </div>

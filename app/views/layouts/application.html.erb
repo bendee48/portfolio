@@ -16,14 +16,6 @@
     <div class="container">
       <%= yield %>
     </div>
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50 mt-5">
-      <div class="container text-center">
-        <small>Ben Daniels -</small>
-        <%= link_to 'https://github.com/bendee48', target: '_blank' do %>
-          <small class="fab fa-github"></small>
-        <% end %>
-        <small>- <%= Time.now.strftime("%Y") %></small>
-      </div>
-    </footer>
+    <%= render 'layouts/footer' %>
   </body>
 </html>

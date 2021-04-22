@@ -1,9 +1,17 @@
 .jumbotron {
   margin-top: 2em;
-  padding: 4rem 2rem;
+  padding: 4rem 4rem;
   margin-bottom: 2rem;
   background-color: #d3dce6;
   border-radius: .3rem;  
+}
+
+.name {
+  font-size: 2rem;
+}
+
+.nav-style:hover {
+  box-shadow: inset 0 -.3rem 0 0 blue;
 }
 
 .carousel-inner {
