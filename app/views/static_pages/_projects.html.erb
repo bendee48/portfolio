@@ -104,6 +104,29 @@
         </div>
       </div>
     </div>
+    <!--Calculator-->
+    <div class="carousel-item" style="background-image:url(<%= image_url("calc.png") %>);">
+      <div class="carousel-caption mb-5 py-4">
+        <h5>Calculator</h5>
+        <p>A calculator built with Javascript, Html and CSS.</p>
+        <span class="badge badge-javascript">JavaScript</span>
+        <span class="badge badge-info">HTML</span>
+        <span class="badge badge-info">CSS</span>
+        <span class="badge badge-git">Git</span>
+        <div class="mt-3">
+          <%= link_to 'https://bendee48.github.io/calculator/', target: '_blank' do %>
+            <i class="fas fa-external-link-alt fa-2x px-3"></i>
+          <% end %>
+          <%= link_to 'https://github.com/bendee48/calculator', target: '_blank' do %>
+            <i class="fab fa-github fa-2x"></i>
+          <% end %>
+          <!-- Button trigger modal -->
+          <%= link_to '#calculatorModal', role: 'button', 'data-toggle' => 'modal' do %>
+            <i class="fas fa-info fa-2x px-3"></i>
+          <% end %>
+        </div>
+      </div>
+    </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
