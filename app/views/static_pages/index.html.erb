@@ -191,17 +191,18 @@
   <%= render 'about' %>
 </section>
 
-<h1 id="projects">Projects</h1>
+<h1 id="projects">Projects.</h1>
 <main class='container'>
   <%= render 'projects' %>
 </main>
 
-<div class="d-flex justify-content-center mt-3">
+<div class="d-flex justify-content-center mt-3 mb-3">
   <%= link_to 'All Projects', projects_path, class: 'btn btn-primary text-center' %>
 </div>
 
-<h1 id="contact">Contact Info</h1>
-<p>Email address</p>
-<p>Github</p>
-<%= image_tag "https://www.codewars.com/users/bendee/badges/micro", alt: 'Codewars Badge' %>
+<h1 id="contact">Contact Info.</h1>
+<section class="container">
+  <%= render 'contact' %>
+</section>
+
 
