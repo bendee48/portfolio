@@ -1,14 +1,20 @@
 // $body-bg: #000;
 // $body-color: #111;
+$carousel-control-color: red;
+
 $theme-colors: (
   "primary": blue,
   "ruby": #d80000,
   "git": #2c2c2c,
   "bootstrap": #610861,
   "javascript": #fcec03
-);
-
-@import 'bootstrap/scss/bootstrap';
+  );
+  
+  @import 'bootstrap/scss/bootstrap';
+  
+i {
+  color: white;
+}
 
 .jumbotron {
   margin-top: 2em;
@@ -41,3 +47,9 @@ $theme-colors: (
   background-size: center;
   background-size: cover;
 }
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(50%);
+}
+
