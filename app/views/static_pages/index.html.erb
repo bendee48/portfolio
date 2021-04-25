@@ -64,7 +64,7 @@
   <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="chessModalLabel">Hangman 2.0 CLI Game</h5>
+        <h5 class="modal-title" id="hangmanModalLabel">Hangman 2.0 CLI Game</h5>
         <a role="button" class="btn-close" data-dismiss="modal" aria-label="Close">
           <span class="fas fa-times"></span>
         </a>
@@ -86,6 +86,39 @@
         </p>
         <p>
           I also used this as an opportunity to learn the process of turning a Ruby project into a Gem.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Overtime Modal -->
+<div class="modal fade" id="overtimeModal" tabindex="-1" aria-labelledby="overtimeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="overtimeModalLabel">A business overtime app</h5>
+        <a role="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+          <span class="fas fa-times"></span>
+        </a>
+      </div>
+      <div class="modal-body">
+        <p>
+          This project looked at building a Rails App with a TDD/BDD approach.
+        </p>
+        <p>
+          The premise of the project was taken from a tutorial and along with the standard Rails practices 
+          I was introduced to a few new concepts primarily through gems, such as the use of Pundit and Administrate to
+          produce an app with defined roles and access to certain features for users.
+        </p>
+        <p>
+          The main aim though was to produce a well tested app. For this I used RSpec, FactoryBot, Faker,
+          Database Cleaner and Capybara for Model and Feature specs. I primarily adopted a TDD approach, writing tests first
+          and then implementing features through the Red, Green, Refactor cycle. I moved to BDD when I wasn't 100% sure how to
+          go about implementing a certain feature which allowed me to play around first with a few methods before settling on an approach.
         </p>
       </div>
       <div class="modal-footer">

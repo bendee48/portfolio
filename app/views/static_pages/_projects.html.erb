@@ -78,6 +78,32 @@
         </div>
       </div>
     </div>
+    <!--Overtime-->
+    <div class="carousel-item" style="background-image:url(<%= image_url("overtime.png") %>);">
+      <div class="carousel-caption mb-5 py-4">
+        <h5>Overtime App</h5>
+        <p>A business app for logging overtime, built with Ruby on Rails.</p>
+        <span class="badge badge-ruby">Rails</span>
+        <span class="badge badge-ruby">Ruby</span>
+        <span class="badge badge-ruby">RSpec</span>
+        <span class="badge badge-info">TDD</span>
+        <span class="badge badge-info">BDD</span>
+        <span class="badge badge-bootstrap">Bootstrap</span>
+        <span class="badge badge-git">Git</span>
+        <div class="mt-3">
+          <%= link_to 'https://overtime-app-123.herokuapp.com/', target: '_blank' do %>
+            <i class="fas fa-external-link-alt fa-2x px-3"></i>
+          <% end %>
+          <%= link_to 'https://github.com/bendee48/overtime-rails', target: '_blank' do %>
+            <i class="fab fa-github fa-2x"></i>
+          <% end %>
+          <!-- Button trigger modal -->
+          <%= link_to '#overtimeModal', role: 'button', 'data-toggle' => 'modal' do %>
+            <i class="fas fa-info fa-2x px-3"></i>
+          <% end %>
+        </div>
+      </div>
+    </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
