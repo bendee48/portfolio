@@ -1,44 +1,55 @@
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">Year</th>
-      <th scope="col">Title</th>
-      <th scope="col">Description</th>
-      <th scope="col">Tech</th>
-      <th scope="col">Links</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">2020</th>
-      <td>Chess CLI</td>
-      <td>Command line chess game built with Ruby.</td>
-      <td>
-        <span class="badge badge-ruby">ruby</span>
-        <span class="badge badge-ruby">rspec</span>
-        <span class="badge badge-git">git</span>      
-      </td>
-      <td>
-        <%= link_to 'https://replit.com/@bendee48/chess', target: '_blank' do %>
-            <i class="fas fa-external-link-alt px-3"></i>
-        <% end %>
-        <%= link_to 'https://github.com/bendee48/chess', target: '_blank' do %>
-          <i class="fab fa-github"></i>
-        <% end %>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
+<div class="table-responsive mt-4">
+  <table class="table table-hover table-sm">
+    <thead>
+      <tr>
+        <th scope="col">Year</th>
+        <th scope="col">Title</th>
+        <th scope="col">Description</th>
+        <th scope="col">Tech</th>
+        <th scope="col">Links</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">2020</th>
+        <td>Hangman CLI Game</td>
+        <td>Test Driven Developed command line Hangman game built with Ruby.</td>
+        <td>
+          <span class="badge badge-ruby">Ruby</span>
+          <span class="badge badge-ruby">RubyGem</span>
+          <span class="badge badge-ruby">RSpec</span>
+          <span class="badge badge-info">TDD</span>
+          <span class="badge badge-info">BDD</span>
+          <span class="badge badge-git">Git</span>
+          <span class="badge badge-secondary">Yaml</span>     
+        </td>
+        <td class='text-nowrap'>
+          <%= link_to 'https://replit.com/@bendee48/hangman-20', target: '_blank' do %>
+              <i class="fas fa-external-link-alt px-3"></i>
+          <% end %>
+          <%= link_to 'https://github.com/bendee48/hangman-2.0', target: '_blank' do %>
+            <i class="fab fa-github"></i>
+          <% end %>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">2020</th>
+        <td>Chess CLI</td>
+        <td>Command line chess game built with Ruby.</td>
+        <td>
+          <span class="badge badge-ruby">ruby</span>
+          <span class="badge badge-ruby">rspec</span>
+          <span class="badge badge-git">git</span>      
+        </td>
+        <td class='text-nowrap'>
+          <%= link_to 'https://replit.com/@bendee48/chess', target: '_blank' do %>
+              <i class="fas fa-external-link-alt px-3"></i>
+          <% end %>
+          <%= link_to 'https://github.com/bendee48/chess', target: '_blank' do %>
+            <i class="fab fa-github"></i>
+          <% end %>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

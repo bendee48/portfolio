@@ -3,7 +3,8 @@
 $theme-colors: (
   "primary": blue,
   "ruby": #d80000,
-  "git": #2c2c2c 
+  "git": #2c2c2c,
+  "bootstrap": #610861
 );
 
 @import 'bootstrap/scss/bootstrap';
@@ -29,7 +30,7 @@ $theme-colors: (
 }
 
 .carousel-caption {
-  background-color: rgba(100,100,100,0.7);
+  background-color: rgba(140, 109, 212, 0.7);
   border-radius: .4rem;
 }
 

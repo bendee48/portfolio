@@ -24,6 +24,41 @@
   </div>
 </div>
 
+<!-- Facey Modal -->
+<div class="modal fade" id="faceyModal" tabindex="-1" aria-labelledby="faceyModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="faceyModalLabel">Social Media App</h5>
+        <a role="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+          <span class="fas fa-times"></span>
+        </a>
+      </div>
+      <div class="modal-body">
+        <p>
+          This project's aim was to bring together all that I'd learned about Rails so far.
+          It incorporates all the core aspects of Rails; associations, routing, validations etc 
+        </p>
+        <p>
+          The task given was to produce a social media app with secure sign in and OAuth sign in via Facebook. Emails are sent on sign up, using Gmail in production.
+          Users can create posts, comment on posts and 'like' them. Users also have the ability to upload pictures.
+          In production AWS supports this. 
+        </p>
+        <p>
+          Users can 'friend' each other via associations. Notifications are provided for friend requests.
+          Users also have a timeline and a users page to look for friends.
+        </p>
+        <p>
+          I introduced a test suite utilising RSpec, FactoryBot and Faker; taking a BDD approach with Model and Request specs.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- Hangman Modal -->
 <div class="modal fade" id="hangmanModal" tabindex="-1" aria-labelledby="hangmanModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
