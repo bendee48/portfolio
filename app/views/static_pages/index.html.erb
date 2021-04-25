@@ -24,6 +24,42 @@
   </div>
 </div>
 
+<!-- Hangman Modal -->
+<div class="modal fade" id="hangmanModal" tabindex="-1" aria-labelledby="hangmanModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="chessModalLabel">Hangman 2.0 CLI Game</h5>
+        <a role="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+          <span class="fas fa-times"></span>
+        </a>
+      </div>
+      <div class="modal-body">
+        <p>
+          The primary aim for this project was to develop a piece of software with a TDD approach and attempt to 
+          obtain 100% test coverage whilst cemementing my knowledge of RSpec.
+        </p>
+        <p>
+          I opted to remake a previous project as I thought it would also be interesting to compare this approach with my first attempt.
+          The primary focus of the initial project was to incorporate serialization via game saves.
+        </p>
+        <p>
+          I began with a strict TDD approach but as some concepts grew in complexity, such as with the ‘guess logic’, I adapted to BDD to gain a greater understanding of what may be the best approach to implement certain features.
+          In the end I managed to obtain 99% test coverage (simplecov gem).
+          I was also pleased with the progress in my Object-Oriented Design when comparing this project with my first attempt.
+          My code was a lot more modular this time around and I used refactoring more effectively to identify areas for abstraction into new classes. 
+        </p>
+        <p>
+          I also used this as an opportunity to learn the process of turning a Ruby project into a Gem.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <h1 id="home"></h1>
 <section class="container">
   <%= render 'home' %>

@@ -1,6 +1,3 @@
-<h1>Projects#index</h1>
-<p>Find me in app/views/projects/index.html.erb</p>
-
 <table class="table">
   <thead>
     <tr>
@@ -16,17 +13,31 @@
       <th scope="row">2020</th>
       <td>Chess CLI</td>
       <td>Command line chess game built with Ruby.</td>
-      <td>Ruby</td>
+      <td>
+        <span class="badge badge-ruby">ruby</span>
+        <span class="badge badge-ruby">rspec</span>
+        <span class="badge badge-git">git</span>      
+      </td>
+      <td>
+        <%= link_to 'https://replit.com/@bendee48/chess', target: '_blank' do %>
+            <i class="fas fa-external-link-alt px-3"></i>
+        <% end %>
+        <%= link_to 'https://github.com/bendee48/chess', target: '_blank' do %>
+          <i class="fab fa-github"></i>
+        <% end %>
+      </td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>@fat</td>
+      <td>@fat</td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
       <td>@twitter</td>
     </tr>
   </tbody>
