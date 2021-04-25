@@ -154,6 +154,33 @@
   </div>
 </div>
 
+<!-- Mastermind Sinatra Modal -->
+<div class="modal fade" id="mastermindSinatraModal" tabindex="-1" aria-labelledby="mastermindSinatraModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="mastermindSinatraModalLabel">Mastermind Sinatra Game</h5>
+        <a role="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+          <span class="fas fa-times"></span>
+        </a>
+      </div>
+      <div class="modal-body">
+        <p>
+          This project took an exisitng Ruby cli app I produced and turned it into a Sinatra app.
+        </p>
+        <p>
+          The main aim was to take a look at Sinatra and to produce a web app without as much hand-holding as Rails.
+          I used an existing Ruby app I made, the game Mastermind, so I already had the game logic in place.
+          It was just a matter of hooking this up to a web interface and adding a little styling.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <h1 id="home"></h1>
 <section class="container">
   <%= render 'home' %>
