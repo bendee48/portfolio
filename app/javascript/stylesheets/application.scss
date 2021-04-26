@@ -1,6 +1,6 @@
 // $body-bg: #000;
 // $body-color: #111;
-$carousel-control-color: red;
+$light-blue: #b8b4db8a;
 
 $theme-colors: (
   "primary": blue,
@@ -8,12 +8,16 @@ $theme-colors: (
   "git": #2c2c2c,
   "bootstrap": #610861,
   "javascript": #fcec03
-  );
+);
   
-  @import 'bootstrap/scss/bootstrap';
+@import 'bootstrap/scss/bootstrap';
   
 i {
   color: white;
+}
+
+.index-icon {
+  color: $primary;
 }
 
 .jumbotron {
@@ -37,8 +41,9 @@ i {
 }
 
 .carousel-caption {
-  background-color: rgba(140, 109, 212, 0.7);
+  background-color: rgba(120, 71, 233, 0.7);
   border-radius: .4rem;
+  margin: 0 5% 0 5%;
 }
 
 .carousel-item {
@@ -49,7 +54,12 @@ i {
 }
 
 .carousel-control-next,
-.carousel-control-prev /*, .carousel-indicators */ {
-    filter: invert(50%);
+.carousel-control-prev {
+  filter: invert(100%);
+  background-color: rgba(135, 184, 22, 0.575);
+}
+
+.modal-header, .modal-footer {
+  background-color: $light-blue;
 }
 
