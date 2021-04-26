@@ -1,13 +1,14 @@
-// $body-bg: #000;
-// $body-color: #111;
-$light-blue: #b8b4db8a;
+$body-bg: rgb(243, 243, 243);
+//$body-color: #111;
+$light-blue: #a6a2cf;
 
 $theme-colors: (
   "primary": blue,
   "ruby": #d80000,
   "git": #2c2c2c,
   "bootstrap": #610861,
-  "javascript": #fcec03
+  "javascript": #fcec03,
+  "light-blue": $light-blue
 );
   
 @import 'bootstrap/scss/bootstrap';
@@ -17,7 +18,7 @@ i {
 }
 
 .index-icon {
-  color: $primary;
+  color: blue;
 }
 
 .jumbotron {
