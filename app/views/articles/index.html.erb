@@ -1,15 +1,17 @@
-<main class="container mt-3">
-  <article class="card rounded">
+<main class="container mt-3 articles">
+  <article class="card rounded bg-light-blue">
     <div class="card-body">
       <div class="row">
         <div class="col-sm-4">
-          <h5 class="card-title">Recursion and the Call Stack with Ruby</h5>
+          <%= link_to "https://bendaniels-14833.medium.com/recursion-and-the-call-stack-with-ruby-cf3d035db3cd", class: 'text-decorstion-none', target: '_blank' do %>
+            <h5 class="card-title">Recursion and the Call Stack with Ruby</h5>
+          <% end %>
         </div>
         <div class="col-sm-2">
           <p>Medium Article</p>
         </div>
         <div class="col-sm-6">
-          <p class="card-text">
+          <p class="card-text font-italic">
             I think it’s fair to say recursion is one of the more confusing aspects of programming for learners.
             I recall struggling a fair bit when I first...
           </p>

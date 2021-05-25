@@ -14,6 +14,18 @@ $theme-colors: (
 );
   
 @import 'bootstrap/scss/bootstrap';
+
+/*Main Styling*/
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex-grow: 1;
+}
   
 i {
   color: white;
@@ -27,7 +39,7 @@ i {
   margin-top: 2em;
   padding: 4rem 4rem;
   margin-bottom: 2rem;
-  // background-color: #d3dce6;
+  //background-color: #d3dce6;
   border-radius: .3rem;  
 }
 
@@ -72,4 +84,6 @@ i {
 
 /*Article*/
 
-
+.articles article a {
+  background: red;
+}
