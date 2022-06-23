@@ -78,6 +78,30 @@
         </div>
       </div>
     </div>
+    <!--Todo-->
+    <div class="carousel-item" style="background-image:url(<%= image_url("todo.png") %>);">
+      <div class="carousel-caption mb-5 py-4">
+        <h5>Todo App</h5>
+        <p>A vanilla JavaScript app for Todos</p>
+        <span class="badge badge-javascript">JavaScript</span>
+        <span class="badge badge-html">HTML</span>
+        <span class="badge badge-css">CSS</span>
+        <span class="badge badge-git">Git</span>
+        <span class="badge badge-secondary">Webpack</span>
+        <div class="mt-3">
+          <%= link_to 'https://bendee48.github.io/todo/', target: '_blank' do %>
+            <i class="fas fa-external-link-alt fa-2x px-3"></i>
+          <% end %>
+          <%= link_to 'https://github.com/bendee48/todo', target: '_blank' do %>
+            <i class="fab fa-github fa-2x"></i>
+          <% end %>
+          <!-- Button trigger modal -->
+          <%= link_to '#todoModal', role: 'button', 'data-toggle' => 'modal' do %>
+            <i class="fas fa-info fa-2x px-3"></i>
+          <% end %>
+        </div>
+      </div>
+    </div>
     <!--Overtime-->
     <div class="carousel-item" style="background-image:url(<%= image_url("overtime.png") %>);">
       <div class="carousel-caption mb-5 py-4">
